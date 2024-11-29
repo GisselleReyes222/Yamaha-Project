@@ -1,0 +1,36 @@
+:rootf{
+--main-color:#d80909;
+--black:#13131a;
+--bg:D#7171d7;
+--border:.1rem solid Orgba (255, 255 ,255 , .3);
+}
+*{
+    margin: 0px;
+     padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+html{
+    font-size: 62.5%; 
+    overflow-x: hidden; 
+    scroll-padding-top:grem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+     border-radius: Srem;
+}
+body{
+    background: var (--bg);
+}
