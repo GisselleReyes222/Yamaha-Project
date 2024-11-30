@@ -5,31 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="Logo Page.png" type="image/x-icon">
+    <title>Yamaha</title>
+
 </head>
 <body>
    <head>
     <a href="#" class="logo">
-        <img src="Logo Page.jpeg" alt="">
     </a>
-    <nav class="navigation">
-        <a href="#home">Home</a>
-        <a href="#about us">About us</a>
-        <a href="#products">"Products"</a>
-        <a href="#accesories">Accesories</a>
-        <a href="#contact">Contact</a>
-        <a href="#blog">Blogs</a>
-        <a href="#social media CEO´s">Social Media CEOs
-        </a>
-    </nav>
-    <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"> </div>
-        <div class="fas fa-bars" id="menu-btn"></div>
+    <div>
+        <nav class="navigation">
+            <img src="Logo Page.png" alt="Logo Yamaha" width="40">  
+            <div class="menu-links">
+                <a href="#home">Inicio</a>
+                <a href="#products">Productos</a>
+                <a href="#accesories">Accesorios</a>
+                <a href="#about us">Acerca de</a>
+                <a href="#contact">Contacto</a>
+                <a href="#blog">Blogs</a>  
+                <a href="#social media CEO´s">CEO's</a>
+            </div>
+            <div class="search-form">
+                <input type="search" id="search-box" placeholder="Buscar aquí...">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+        </nav>
+   
+    </head>  
+    <section class="home" id="home"></section>
+
+    <div class="carousel">
+        <!-- Botón izquierdo -->
+        <button class="arrow arrow-left" onclick="moveCarousel(-1)">&#8249;</button>
+    
+        <!-- Imágenes del carrusel -->
+        <div class="carousel-images">
+            <img src="carrusel2.jpg" alt="Imagen 1">
+            <img src="carrusel3.jpg" alt="Imagen 2">
+            <img src="carrusel1.jpg" alt="Imagen 3">
+        </div>
+    
+        <!-- Botón derecho -->
+        <button class="arrow arrow-right" onclick="moveCarousel(1)">&#8250;</button>
     </div>
-    <div class="search-form">
-        <input type="search" id="search-box" placeholder="search here ...">
-        <label for="search-box" class="fas fa-search"></label>
-    </div>
+
+    <script>
+        let index = 0; // Índice inicial
+        const imagesContainer = document.querySelector('.carousel-images');
+        const totalImages = imagesContainer.children.length;
+    
+        function moveCarousel(direction) {
+            index += direction;
+    
+            // Volver al inicio o al final si se supera el límite
+            if (index < 0) {
+                index = totalImages - 1;
+            } else if (index >= totalImages) {
+                index = 0;
+            }
+    
+            // Mover el carrusel
+            const width = imagesContainer.children[0].clientWidth;
+            imagesContainer.style.transform = `translateX(${-index * width}px)`;
+        }
+    </script>
+   
     <div class="cart-items-conteiner">
         <div class="cart-item">
             <span class="fas fa-times"></span>
@@ -75,16 +116,7 @@
     </div>
 </head> 
 <!--header section ends-->
-<!--home section starts-->
-<section class="home" id= home>
-    <div class="content">
-        <h3>Todo a su tiempo, hoy lo soñamos, mañana lo logramos</h3>
-        <p>No es por lo que es, es por lo que transmite, ahi esta la magia de las motos
-        </p>
-        <a href="#" class="btn">get yours now</a>
-    </div>
-</section>
-<!--home section ends-->
+
 <!--about section starts-->
 <section class="about us" id="about us">
     <h1 class="heading"><span>about us</span>US</h1>
@@ -128,5 +160,38 @@
     </div>
     </div>
 </section>
+
+<section class="accesories" id="accesories">
+    <div class="content">
+        <h3>Todo a su tiempo, hoy lo soñamos, mañana lo logramos</h3>
+        <p>No es por lo que es, es por lo que transmite, ahi esta la magia de las motos
+        </p>
+        <a href="" class="btn">get yours now</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-socials">
+        <a href="https://www.facebook.com/Yamaha" target="_blank" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/Yamaha" target="_blank" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/Yamaha" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/Yamaha" target="_blank" class="social-icon">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+    <div class="footer-bottom">
+        <p>Siguenos en nuestras redes sociales</p>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Yamaha Motor Company. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
 <!--products section ends-->
 <!--accesories section starts-->
