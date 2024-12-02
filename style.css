@@ -207,3 +207,17 @@ body {
 .footer-bottom p {
     margin: 0;
 }
+
+.home ::content h3{
+    color: #b60a0a;
+    margin: 0%;
+    font-size: medium;
+    justify-content: center;
+}
+.home ::content p{
+    color: #921a1a;
+    margin-top: auto;
+    font-size: small;
+    justify-content: center;
+    font: caption;
+}
