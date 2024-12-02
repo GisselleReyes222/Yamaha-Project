@@ -209,7 +209,10 @@ body {
 }
         /* estilo para la seccion general*/
 .home ::content {
-    background-color: #f4f4f9;
+    background-image: url(Background\ Page.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
     padding: 50px 20px;
 }
@@ -230,7 +233,7 @@ body {
     text-align: center;
 }
         /* estilo para el boton*/
-.btn {
+.buttom {
     background-color: transparent;
     color: #ababbc;
     cursor: pointer;
@@ -250,14 +253,14 @@ body {
     transition: 0,5s;
 }
         /* haver del boton*/
-.btn:hover span {
+.buttom:hover span {
     width: 100%;
 }
-.btn:hover span {
+.buttom:hover span {
     border: none;
 }
         /* about us */
-.about us .row {
+.about us .row h1 {
     display: flex;
     align-items: center;
     background: var(rgb(153, 56, 56));
@@ -267,7 +270,7 @@ body {
     flex: 1 1 45rem;
 }
 .about us .row .image .img {
-    width: 100%;
+    width: 80%;
 }
 .about us .row .content {
     flex: 1 1 45rem;
