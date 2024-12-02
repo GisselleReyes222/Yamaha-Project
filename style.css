@@ -242,9 +242,9 @@ body {
     background: #ed0a0a;
     height: 100%;
     width: 0;
-    border border-radius: 25px;
+    border-radius: 25px;
     position: absolute;
-    bottom:;
+    bottom:0;
     left: 0;
     z-index: -1;
     transition: 0,5s;
@@ -256,6 +256,7 @@ body {
 .btn:hover span {
     border: none;
 }
+        /* about us */
 .about us .row {
     display: flex;
     align-items: center;
