@@ -256,3 +256,28 @@ body {
 .btn:hover span {
     border: none;
 }
+.about us .row {
+    display: flex;
+    align-items: center;
+    background: var(rgb(153, 56, 56));
+    flex-wrap: wrap;
+}
+.about us .row .image {
+    flex: 1 1 45rem;
+}
+.about us .row .image .img {
+    width: 100%;
+}
+.about us .row .content {
+    flex: 1 1 45rem;
+}
+.about us .row .content .h3 {
+    font-size: 3rem;
+    color: white;
+}
+.about us .row .content .p {
+    font-size: 1,5rem;
+    color: #892828;
+    padding: 1rem 0;
+    line-height: 1,8;
+}
