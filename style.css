@@ -207,17 +207,49 @@ body {
 .footer-bottom p {
     margin: 0;
 }
-
-.home ::content h3{
-    color: #b60a0a;
-    margin: 0%;
-    font-size: medium;
-    justify-content: center;
+/* estilo para la seccion general*/
+.home ::content {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 50px 20px;
 }
-.home ::content p{
-    color: #921a1a;
-    margin-top: auto;
-    font-size: small;
-    justify-content: center;
-    font: caption;
+/* estilo para el texto principal*/
+.home h3 {
+    color: #ed0a0a;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* estilo para el parrafo*/
+.home p {
+    color: #751212;
+    font-size: 16px;
+    line-height: 1.5%;
+    margin-bottom: 25px;
+}
+/* estilo para el boton*/
+.btn {
+    background-color: transparent;
+    color: #ababbc;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.span {
+    background: #ed0a0a;
+    height: 100%;
+    width: 0;
+    border border-radius: 25px;
+    position: absolute;
+    bottom:;
+    left: 0;
+    z-index: -1;
+    transition: 0,5s;
+}
+/* haver del boton*/
+.btn:hover span {
+    width: 100%;
+}
+.btn:hover span {
+    border: none;
 }
