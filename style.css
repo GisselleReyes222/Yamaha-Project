@@ -209,7 +209,13 @@ body {
 }
         /* estilo para la seccion general*/
 .home ::content {
-    background-image: url(Background\ Page.jpeg);
+    width: 100%;
+    height: auto; /* Deja que el alto sea ajustado a las imágenes */
+    max-height: 450px; /* Controla el tamaño máximo en altura */
+    position: relative;
+    overflow: hidden;
+    border-radius: 0%;
+    background-image: url(Background-Page.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
