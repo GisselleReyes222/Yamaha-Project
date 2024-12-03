@@ -268,8 +268,8 @@ body {
 
        /* banner section*/
 .banner h2 {
-    background: #616384;
-    color: #0b295e;
+    background: #e4e4e7;
+    color: #920f0f;
     text-align: center;
     font-size: 40px;
     font-style: italic;
@@ -277,17 +277,17 @@ body {
 
 .sec {
     background-image: url(Background-Page.jpeg);
-    background-size: 300px 200px;
-    background-position: center;
+    background-size:contain;
+    background-position: top center;
     background-repeat: no-repeat;
-    width: 100;
+    width: 50%;
     height: auto;
-    margin: 15px;
+    margin: 0 auto;
     border: #f4f4f9;
     border-width: 15px;
     padding: 10px;
     min-height: 20px;
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
