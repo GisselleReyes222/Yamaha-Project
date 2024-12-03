@@ -265,12 +265,16 @@ body {
 .buttom:hover span {
     border: none;
 }
+
        /* banner section*/
 .banner h2 {
     color: #0f3880;
     text-align: center;
-
+    font-size: 50px;
+    font-style: italic;
 }
+
+
 .banner h2 span{
     color: #0f3880;
     font-size: 50px;
@@ -280,10 +284,13 @@ body {
 .sec {
     background-image: url(Background-Page.jpeg);
     background-size: 400px 250px;
-    background-repeat: none;
     background-position: center;
+    background-repeat: no-repeat;
+    margin: 15px;
+    border: #f4f4f9;
+    border-width: 15px;
     padding: 100px;
-    min-height: 100vh;
+    min-height: 200px;
     display: flex;
     justify-content: center;
 }
