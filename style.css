@@ -273,10 +273,13 @@ body {
 }
 .banner h2 span{
     color: #0f3880;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
 }
 .sec {
     background-image: url(Background-Page.jpeg);
-    background-size: cover;
+    background-size: 400px 250px;
     background-repeat: none;
     background-position: center;
     padding: 100px;
