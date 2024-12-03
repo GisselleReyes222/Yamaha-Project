@@ -268,24 +268,20 @@ body {
 
        /* banner section*/
 .banner h2 {
-    color: #0f3880;
+    background: #616384;
+    color: #0b295e;
     text-align: center;
     font-size: 50px;
     font-style: italic;
 }
 
-
-.banner h2 span{
-    color: #0f3880;
-    font-size: 50px;
-    text-align: center;
-    font-style: italic;
-}
 .sec {
     background-image: url(Background-Page.jpeg);
-    background-size: 400px 250px;
+    background-size: 150px 100px;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100;
+    height: auto;
     margin: 15px;
     border: #f4f4f9;
     border-width: 15px;
