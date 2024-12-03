@@ -266,11 +266,19 @@ body {
     border: none;
 }
        /* banner section*/
+.banner h2 {
+    color: #0f3880;
+    text-align: center;
+
+}
 .banner h2 span{
     color: #0f3880;
 }
 .sec {
-    background: #ababbc;
+    background-image: url(Background-Page.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     padding: 100px;
     min-height: 100vh;
     display: flex;
