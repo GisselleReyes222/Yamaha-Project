@@ -275,11 +275,7 @@ body {
     font-style: italic;
 }
 
-.sec {
-    background-image: url(Background-Page.jpeg);
-    background-size:contain;
-    background-position: top center;
-    background-repeat: no-repeat;;
+.banner .img src{
     padding: 100px;
     min-height: 100vh;
     display: flex;
