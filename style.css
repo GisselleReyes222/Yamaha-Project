@@ -271,13 +271,13 @@ body {
     background: #616384;
     color: #0b295e;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-style: italic;
 }
 
 .sec {
     background-image: url(Background-Page.jpeg);
-    background-size: 150px 100px;
+    background-size: 300px 200px;
     background-position: center;
     background-repeat: no-repeat;
     width: 100;
