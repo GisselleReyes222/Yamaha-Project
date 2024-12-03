@@ -265,29 +265,43 @@ body {
 .buttom:hover span {
     border: none;
 }
-        /* about us */
-.about us .row h1 {
+.banner h2 span{
+    color: #0f3880;
+}
+.sec {
+    background: #ababbc;
+    padding: 100px;
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    background: var(rgb(153, 56, 56));
-    flex-wrap: wrap;
+    justify-content: center;
 }
-.about us .row .image {
-    flex: 1 1 45rem;
+
+.sec .content {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
-.about us .row .image .img {
-    width: 80%;
+
+.mxw800px {
+    max-width: 800px;
+    margin: 0 auto;
 }
-.about us .row .content {
-    flex: 1 1 45rem;
+
+.btn {
+    display: inline-block;
+    background:#000;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
 }
-.about us .row .content .h3 {
-    font-size: 3rem;
-    color: white;
+h3 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
 }
-.about us .row .content .p {
-    font-size: 1,5rem;
-    color: #892828;
-    padding: 1rem 0;
-    line-height: 1,8;
+.p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
 }
