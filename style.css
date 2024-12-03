@@ -267,7 +267,7 @@ body {
 }
 
        /* banner section*/
-.banner .h2 {
+.banner h2 {
     background: #e4e4e7;
     color: #920f0f;
     text-align: center;
@@ -279,15 +279,10 @@ body {
     background-image: url(Background-Page.jpeg);
     background-size:contain;
     background-position: top center;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    border: #f4f4f9;
-    border-width: 15px;
-    padding: 10px;
-    min-height: 20px;
-    display: block;
+    background-repeat: no-repeat;;
+    padding: 100px;
+    min-height: 100vh;
+    display: flex;
     justify-content: center;
 }
 
