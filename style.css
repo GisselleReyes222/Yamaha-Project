@@ -1,19 +1,48 @@
-body {
+       header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+    
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
             color: #140c35;
         }
-        header {
-            background-color: #000;
-            color: white;
-            padding: 20px;
-            text-align: center;
+        
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se acomoden en filas */
+            gap: 20px;
+            justify-content: center;
+            width: 100%;
+            max-width: 1200px;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
+        
+        .imagen {
+            width: 300px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .imagen img {
+            width: 100%;
+            display: block;
+        }
+        .imagen:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
         }
 
         /* Contenedor principal del carrusel */
@@ -207,117 +236,44 @@ body {
 .footer-bottom p {
     margin: 0;
 }
-        /* estilo para la seccion general*/
-.home ::content {
-    width: 100%;
-    height: auto; /* Deja que el alto sea ajustado a las imágenes */
-    max-height: 450px; /* Controla el tamaño máximo en altura */
-    position: relative;
-    overflow: hidden;
-    border-radius: 0%;
-    background-image: url(Background-Page.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 50px 20px;
-}
-        /* estilo para el texto principal*/
-.home h3 {
-    background: #e4e4e7;
-    color: #920f0f;
-    text-align: center;
-    font-size: 40px;
-    font-style: italic;
-}
-        /* estilo para el parrafo*/
-.home p {
-    color: #751212;
-    font-size: 16px;
-    line-height: 1.5%;
-    margin-bottom: 25px;
-    text-align: center;
-}
-        /* estilo para el boton*/
-.buttom {
-    background-color: transparent;
-    color: #ababbc;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-}
-.span {
-    background: #ed0a0a;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    bottom:0;
-    left: 0;
-    z-index: -1;
-    transition: 0,5s;
-}
-        /* haver del boton*/
-.buttom:hover span {
-    width: 100%;
-}
-.buttom:hover span {
-    border: none;
-}
 
-       /* banner section*/
-.banner h2 {
-    background: #e4e4e7;
-    color: #920f0f;
-    text-align: center;
-    font-size: 40px;
-    font-style: italic;
-}
-.banner {
+.container {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: transparent;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .card {
+    width: calc(100% / 3);
+    margin: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     padding: 20px;
-}
-
-.banner .img {
-    width: 200px;
-    height: 150px;
-    margin: 20px auto;
-    object-fit: cover;
-    border: 2px solid #000;
-    display: block;
-}
-
-.sec .content {
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card img {
     width: 100%;
-}
-
-.mxw800px {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.btn {
-    display: inline-block;
-    background:#000;
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-}
-h3 {
-    font-size: 40px;
-    font-weight: 200;
-    margin-bottom: 10px;
-}
-.p {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .card h2 {
+    font-weight: bold;
     font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-}
+    margin-top: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  
