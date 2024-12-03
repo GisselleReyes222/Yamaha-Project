@@ -1,39 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="Logo.png" type="image/x-icon">
-    <title>Yamaha</title>
+<a href="#" class="logo">
+        </a>
+        <div>
+            <nav class="navigation">
+                <img src="Logo.png" alt="Logo Yamaha" width="40">  
+                <div class="menu-links">
+                    <a href="#home">Inicio</a>
+                    <a href="#products">Productos</a>
+                    <a href="#accesories">Accesorios</a>
+                    <a href="#about us">Acerca de</a>
+                    <a href="#contact">Contacto</a>
+                    <a href="#blog">Blogs</a>  
+                    <a href="#directores">Directores ejecutivos</a>
+                </div>
+                <div class="search-form">
+                    <input type="search" id="search-box" placeholder="Buscar aquí...">
+                    <label for="search-box" class="fas fa-search"></label>
+                </div>
+            </nav>
 
-</head>
-<body>
-   <head>
-    <a href="#" class="logo">
-    </a>
-    <div>
-        <nav class="navigation">
-            <img src="Logo.png" alt="Logo Yamaha" width="40">  
-            <div class="menu-links">
-                <a href="#home">Inicio</a>
-                <a href="#products">Productos</a>
-                <a href="#accesories">Accesorios</a>
-                <a href="#about us">Acerca de</a>
-                <a href="#contact">Contacto</a>
-                <a href="#blog">Blogs</a>  
-                <a href="#social media CEO´s">CEO's</a>
-            </div>
-            <div class="search-form">
-                <input type="search" id="search-box" placeholder="Buscar aquí...">
-                <label for="search-box" class="fas fa-search"></label>
-            </div>
-        </nav>
-   
-    </head>  
-    <section class="home" id="home"></section>
+            <section class="home" id="home"></section>
 
     <div class="carousel">
         <!-- Botón izquierdo -->
@@ -70,12 +55,8 @@
             imagesContainer.style.transform = `translateX(${-index * width}px)`;
         }
     </script>
-   
-</section>
+</head>
 <body>
-<head>
-<section class="home" id="home">
-    <link rel="stylesheet" href="style.css">
     <div class="content">
         <h3>Todo a su tiempo, hoy lo soñamos, mañana lo logramos</h3>
         <p>No es por lo que es, es por lo que transmite, ahi esta la magia de las motos
@@ -85,7 +66,22 @@
         </div>
     </div>
 </section>
-</head>
+
+     <header>
+        <h1>Mi Catálogo</h1>
+    </header>
+    <div class="catalogo">
+        <div class="imagen">
+            <img src="carrusel.jpg" alt="Imagen 1">
+        </div>
+        <div class="imagen">
+            <img src="carrusel2.jpg" alt="Imagen 2">
+        </div>
+        <div class="imagen">
+            <img src="carrusel3.jpg" alt="Imagen 3">
+        </div>
+    </div>
+    
 <!-- banner section starts-->
 <section class="banner" id="about us">
     <h2>Hacemos mas por tu empresa</h2>
@@ -371,6 +367,50 @@
     </div>
 </div>
 </section> 
+
+    <section class="accesories" id="accesories">
+    <div class="content">
+        <br>
+        <br>
+        
+  <div class="container">
+    <div class="card">
+      <img src="guante1.jpg" alt="Imagen 1">
+      <h2>Guantes de ciclismo</h2>
+      <p>PUCIO Para Yamaha YZF-R1 R6 R15 R25 R125 R5 FZ6 FZ6R XJ6 YZF750 
+        Guantes de ciclismo universales para motocicleta con pantalla táctil masculina</p>
+    </div>
+    <div class="card">
+      <img src="accesorios1.jpg" alt="Imagen 2">
+      <h2>Kit Yamaha Full</h2>
+      <p>Kit Yamaha Full XTZ 250 (13 piezas), Categorías: XTZ, XTZ 250, YAMAHA</p>
+    </div>
+    <div class="card">
+      <img src="casco1.jpg" alt="Imagen 3">
+      <h2>Casco de Motocross</h2>
+      <p>Casco Thor Chev Sector Motocross Bicicleta de Suciedad MX ATV Todoterreno ¡AZUL YAMAHA! Adulto</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <img src="traje1.jpg" alt="Imagen 1">
+      <h2>Trajes Yamaha</h2>
+      <p>Traje de cuero de motocicleta y motocicleta Yamaha para hombre carreras motociclista trajes de cuero</p>
+    </div>
+    <div class="card">
+      <img src="chaleco1.jpg" alt="Imagen 2">
+      <h2>Chaleco</h2>
+      <p>Nuevo chaleco salvavidas Yamaha para hombre NEOPRENO 2 HEBILLAS PFD rojo azul negro MAR-22VNE</p>
+    </div>
+    <div class="card">
+      <img src="gorra1.jpeg" alt="Imagen 3">
+      <h2>Gorra</h2>
+      <p>Gorra de béisbol Yamaha para hombre azul talla única ala curva ajustable logotipo bordado</p>
+    </div>
+  </div>
+</section>
+</body>
 <!--accesories section ends-->
 <!--footer section ends-->
 <footer class="footer">
