@@ -180,6 +180,7 @@
     background-color: #032852;  /* Fondo oscuro */
     color: white;
     padding: 40px 20px;
+    height: 50px;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -276,4 +277,64 @@
     margin-top: 10px;
   }
 
-  
+.directores {
+    background-color: #9d0909;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.directores-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.directores-logo img {
+    width: 100px;
+}
+
+.directores-links {
+    margin: 20px;
+}
+
+.directores-link a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color o.3s;
+}
+
+.directores-links a:hover {
+    color: #9d0909;
+}
+
+.directores-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+    transition: color 0,3s;
+}
+
+.social-icon:hover {
+    color: #9d0909;
+}
+
+.social-bottom {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+-social-bottom p {
+    margin: 0;
+}
+
