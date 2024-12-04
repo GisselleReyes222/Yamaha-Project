@@ -291,26 +291,25 @@
 .about h1 {
     background-color: #191818;
     color: white;
-    text-align: justify;
+    text-align: center;
 }
 
 .about img{
-    width: 200px;
-    height: 100px;
-    padding: 20px;
+    width: 600px;
+    height: 400px;
     justify-content: center;
 }
 
 .about h3 {
     background-color: #f3eeee;
     color: rgb(11, 11, 11);
-    text-align: justify;
+    text-align: center;
 }
 
 .about p {
     background-color: #f3eeee;
     color: black;
-    text-align: justify;
+    text-align: center;
 
 }
 .directores {
