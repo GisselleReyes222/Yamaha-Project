@@ -283,13 +283,15 @@
   }
 
 .about {
-    width: 20px;
+    width: 100px; /* asegura que ocupe todo el ancho de la pantalla*/
     height: 20px;
     border: 10px;
     margin: 5px;
     padding: 40px 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-top: 70px;
+    z-index: 1000; /*coloca el menu este por encima del resto del contenido */
 }
 
 .about h1 {
@@ -305,6 +307,7 @@
     object-fit: cover;
     border: 2px solid white;
     display: block;
+
 }
 
 .about h3 {
