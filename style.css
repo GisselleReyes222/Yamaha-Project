@@ -320,7 +320,7 @@
 .directores-social {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .social-icon {
@@ -334,12 +334,12 @@
     color: #9d0909;
 }
 
-.social-bottom {
+.directores-bottom {
     margin-top: 0;
     font-size: 14px;
 }
 
--social-bottom p {
+.directores-bottom p {
     margin: 0;
 }
 
