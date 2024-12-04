@@ -299,7 +299,7 @@
 }
 
 .directores-logo img {
-    width: 200px;
+    width: 100px;
 }
 
 .directores-links {
@@ -311,17 +311,16 @@
     text-decoration: none;
     margin: 0 10px;
     font-size: 16px;
-    transition: color o.3s;
+    transition: color 0.3s;
 }
 
 .directores-links a:hover {
-    color: #9d0909;
+    color: #0c0c0c;
 }
 
-.directores-social {
-    display: flex;
+.directores-socials {
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .social-icon {
@@ -332,16 +331,15 @@
 }
 
 .social-icon:hover {
-    color: #9d0909;
+    color: #131313;
 }
 
 .directores-bottom {
-    margin-top: 0;
-    font-size: 25px;
+    margin-top: 20;
+    font-size: 14px;
 }
 
 .directores-bottom p {
     margin: 0;
-    text-align: center;
 }
 
