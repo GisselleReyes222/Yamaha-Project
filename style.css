@@ -336,7 +336,8 @@
 
 .directores-bottom {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 25px;
+    align-content: center;
 }
 
 .directores-bottom p {
