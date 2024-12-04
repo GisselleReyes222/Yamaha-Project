@@ -282,6 +282,37 @@
     margin-top: 10px;
   }
 
+  .about {
+    padding: 40px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.about h1 {
+    background-color: #191818;
+    color: white;
+    text-align: justify;
+}
+
+.about img{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.about h3 {
+    background-color: #f3eeee;
+    color: rgb(11, 11, 11);
+    text-align: justify;
+}
+
+.about p {
+    background-color: #f3eeee;
+    color: black;
+    text-align: justify;
+
+}
 .directores {
     background-color: #191818;
     color: white;
@@ -320,7 +351,7 @@
 .directores-social {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 200px;
 }
 
 .social-icon {
