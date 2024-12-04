@@ -283,11 +283,10 @@
   }
 
 .directores {
-    width: 100px;
-    height: 200px;
     background-color: #191818;
     color: white;
     padding: 40px 20px;
+    height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
