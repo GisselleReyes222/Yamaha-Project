@@ -1,191 +1,202 @@
-       header {
-            background-color: #000;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-family: Arial, sans-serif;
-    
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #140c35;
-        }
-        
-        .catalogo {
-            display: flex;
-            flex-wrap: wrap; /* Permite que los elementos se acomoden en filas */
-            gap: 20px;
-            justify-content: center;
-            width: 100%;
-            max-width: 1200px;
-        }
-        
-        .imagen {
-            width: 300px;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-       @media only screen and (max-width: 767px) {
-            .imagen {
-              width: 150px;
-            }
-        }
-        .imagen img {
-            width: 100%;
-            display: block;
-        }
-        .imagen:hover {
-            transform: scale(1.05);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-        }
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
-        /* Contenedor principal del carrusel */
-        .carousel {
-            width: 100%;
-            height: auto; /* Deja que el alto sea ajustado a las imágenes */
-            max-height: 450px; /* Controla el tamaño máximo en altura */
-            position: relative;
-            overflow: hidden;
-            border-radius: 0%;
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #140c35;
+}
 
-        /* Contenedor de imágenes */
-        .carousel-images {
-            display: flex;
-            transition: transform 0.5s ease;
-        }
+.catalogo {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se acomoden en filas */
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
 
-        /* Estilo de cada imagen */
-        .carousel-images img {
-            width: 100%; /* Imagen ocupa todo el carrusel */
-            flex-shrink: 0;
-        }
+.imagen {
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
 
-        /* Flechas de navegación */
-        .arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 10px;
-            border-radius: 50%;
-            z-index: 10;
-        }
+.imagen img {
+    width: 100%;
+    display: block;
+}
 
-        .arrow-left {
-            left: 10px;
-        }
+.imagen:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
 
-        .arrow-right {
-            right: 10px;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: inline-block;
-        }
-        nav a:hover {
-            background-color: #0d6b88;
-        }
-        .hero {
-            background-image: url('https://www.yamaha.com/themes/common/images/default.jpg'); /* Cambia la URL por una imagen de Yamaha */
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        .hero h2 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        .section {
-            padding: 20px;
-            text-align: center;
-        }
-        .section h2 {
-            margin-bottom: 15px;
-        }
+.carousel {
+    width: 100%;
+    height: auto; /* Deja que el alto sea ajustado a las imágenes */
+    max-height: 450px; /* Controla el tamaño máximo en altura */
+    position: relative;
+    overflow: hidden;
+    border-radius: 0%;
+}
 
-        .navigation {
-            position: fixed; /* Fija el menú en la parte superior */
-            top: 0; /* Asegura que esté en la parte superior */
-            left: 0; /* Asegura que esté alineado a la izquierda */
-            width: 100%; /* Ocupa todo el ancho de la pantalla */
-            background-color: #032852; /* Color de fondo del menú */
-            padding: 10px 10px; /* Espaciado dentro del menú */
-            z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombras opcionales para el menú */
-            display: flex;
-            justify-content: flex-start;
-            align-items: left;
-        }
-    
-        .navigation a {
-            color: white;
-            text-decoration: none;
-            margin-right: 0px;
-        }
-        
-        .navigation img {
-            width: 40px; /* Ajusta el tamaño del logo */
-        }
-        
-        .search-form {
-            display: flex;
-            align-items: center;
-        }
-        
-        .search-form input {
-            padding: 5px;
-            border: 3px solid #01a6c4;
-            border-radius: 5px;
-            margin-left: 10px;
-        }
-        
-        .search-form label {
-            font-size: 20px;
-            color: rgb(255, 255, 255);
-            cursor: pointer;
-            margin-left: 5px;
-        }
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
 
-        footer {
-            background-color: #000;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+.carousel-images img {
+    width: 100%; /* Imagen ocupa todo el carrusel */
+    flex-shrink: 0;
+}
 
-        /* Estilos para el footer */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #0d6b88;
+}
+
+.hero {
+    background-image: url('https://www.yamaha.com/themes/common/images/default.jpg'); /* Cambia la URL por una imagen de Yamaha */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+}
+
+.navigation {
+    position: fixed; /* Fija el menú en la parte superior */
+    top: 0; /* Asegura que esté en la parte superior */
+    left: 0; /* Asegura que esté alineado a la izquierda */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background-color: #032852; /* Color de fondo del menú */
+    padding: 10px 10px; /* Espaciado dentro del menú */
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombras opcionales para el menú */
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+.navigation img {
+    width: 40px; /* Ajusta el tamaño del logo */
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    padding: 5px;
+    border: 3px solid #01a6c4;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-form label {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn {
+    background-color: #0d6b88;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  .btn:hover {
+    background-color: #01232e;
+    color: #fff;
+  }
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 .footer {
     background-color: #032852;  /* Fondo oscuro */
     color: white;
     padding: 40px 20px;
-    height: 40px;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -248,9 +259,9 @@
     display: flex;
     justify-content: space-between;
     margin: 20px;
-  }
-  
-  .card {
+}
+
+.card {
     width: calc(100% / 3);
     margin: 20px;
     background-color: #f7f7f7;
@@ -261,84 +272,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 100%;
     height: 150px;
     object-fit: cover;
     border-radius: 10px 10px 10px 10px;
-  }
-  
-  .card h2 {
+}
+
+.card h2 {
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
-  }
-  
-  .card p {
+    color: #1a1249;
+}
+
+.card p {
     font-size: 16px;
     color: #666;
     margin-top: 10px;
-  }
-
-.directores {
-    background-color: #191818;
-    color: white;
-    padding: 40px 20px;
-    height: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
-.directores-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+/* Estilos para pantallas de tamaño grande (desktop) */
+@media only screen and (min-width: 1200px) {
+    .imagen {
+        width: 300px;
+    }
+    .card {
+        width: calc(100% / 3);
+    }
 }
 
-.directores-logo img {
-    width: 100px;
+/* Estilos para pantallas de tamaño medio (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .imagen {
+        width: 250px;
+    }
+    .card {
+        width: calc(100% / 2);
+    }
 }
 
-.directores-links {
-    margin: 20px;
-}
-
-.directores-link a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.directores-links a:hover {
-    color: #0c0c0c;
-}
-
-.directores-socials {
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.social-icon {
-    color: white;
-    font-size: 20px;
-    margin: 0 15px;
-    transition: color 0,3s;
-}
-
-.social-icon:hover {
-    color: #131313;
-}
-
-.directores-bottom {
-    margin-top: 20;
-    font-size: 14px;
-}
-
-.directores-bottom p {
-    margin: 0;
+/* Estilos para pantallas de tamaño pequeño (móviles) */
+@media only screen and (max-width: 767px) {
+    .imagen {
+        width: 150px;
+    }
+    .card {
+        width: 100%;
+    }
 }
