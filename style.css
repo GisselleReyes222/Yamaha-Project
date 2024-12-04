@@ -283,6 +283,8 @@
   }
 
 .directores {
+    width: 100px;
+    height: 200px;
     background-color: #191818;
     color: white;
     padding: 40px 20px;
@@ -320,7 +322,7 @@
 .directores-social {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .social-icon {
@@ -337,10 +339,10 @@
 .directores-bottom {
     margin-top: 0;
     font-size: 25px;
-    align-content: center;
 }
 
 .directores-bottom p {
     margin: 0;
+    text-align: center;
 }
 
