@@ -180,7 +180,7 @@
     background-color: #032852;  /* Fondo oscuro */
     color: white;
     padding: 40px 20px;
-    height: 50px;
+    height: 30px;
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -277,8 +277,49 @@
     margin-top: 10px;
   }
 
+  .about {
+    background-color: #080808;  /* Fondo oscuro */
+    color: white;
+    padding: 40px 20px;
+    height: 300px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+  }
+
+.about img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #f4f1f1;
+}
+
+.about h1 {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.about h3 {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about p {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: justify;
+    text-decoration: none;
+}
+
 .directores {
-    background-color: #9d0909;
+    background-color: #191818;
     color: white;
     padding: 40px 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -293,7 +334,7 @@
 }
 
 .directores-logo img {
-    width: 100px;
+    width: 200px;
 }
 
 .directores-links {
