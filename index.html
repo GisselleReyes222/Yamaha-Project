@@ -18,7 +18,7 @@
                     <a href="#home">Inicio</a>
                     <a href="#products">Productos</a>
                     <a href="#accesories">Accesorios</a>
-                    <a href="#about">Acerca de nosotros</a>
+                    <a href="#about us">Acerca de</a>
                     <a href="#contact">Contacto</a>
                     <a href="#blog">Blogs</a>  
                     <a href="#directores">Directores ejecutivos</a>
@@ -69,13 +69,12 @@
 </head>
 
 <body>
-    
      <header>
         <h1>Mi Catálogo</h1>
     </header>
     <div class="catalogo">
         <div class="imagen">
-            <img src="carrusel1.jpg" alt="Imagen 1">
+            <img src="carrusel.jpg" alt="Imagen 1">
         </div>
         <div class="imagen">
             <img src="carrusel2.jpg" alt="Imagen 2">
@@ -84,8 +83,8 @@
             <img src="carrusel3.jpg" alt="Imagen 3">
         </div>
     </div>
-<!--header section ends-->
-<section class="products" id="products">
+
+    <section class="products" id="products">
         <h2>Productos Yamaha</h2>
         <div class="container">
           <div class="card">
@@ -93,27 +92,55 @@
             <h2>Todo Terreno</h2>
             <p>Estas motos van de la mano con la imaginación de quien decide 
                 comprarla ya que es apta para explorar todo tipo de terreno</p>
-            <button class="btn">Ver detalles</button>
+                <button class="btn" data-product="producto1.html">Ver detalles</button>
+            <script>
+                document.querySelectorAll('.btn').forEach((button) => {
+                button.addEventListener('click', () => {
+                window.location.href = button.getAttribute('data-product');
+                });
+              });
+            </script>
           </div>
           <div class="card">
             <img src="producto2.jpg" alt="Yamaha Product 2">
             <h2>Deportivas</h2>
             <p>Inspiradas en un estilo de carreras y con potencia para transportarte en ciudad o carretera</p>
-            <button class="btn">Ver detalles</button>
+            <button class="btn" data-product="producto2.html">Ver detalles</button>
+            <script>
+                document.querySelectorAll('.btn').forEach((button) => {
+                button.addEventListener('click', () => {
+                window.location.href = button.getAttribute('data-product');
+                });
+              });
+            </script>
           </div>
           <div class="card">
             <img src="producto3.jpg" alt="Yamaha Product 1">
             <h2>Niños</h2>
             <p>Pequeño en tamaño y grande en diversión. Diseñada para proporcionar horas y 
               horas de diversión a toda la familia</p>
-            <button class="btn">Ver detalles</button>
+              <button class="btn" data-product="producto3.html">Ver detalles</button>
+              <script>
+                  document.querySelectorAll('.btn').forEach((button) => {
+                  button.addEventListener('click', () => {
+                  window.location.href = button.getAttribute('data-product');
+                  });
+                });
+              </script>
           </div>  
           <div class="card">
             <img src="producto4.jpg" alt="Yamaha Product 3">
             <h2>Aventura</h2>
             <p>Con un espíritu de aventura en su ADN, toda motocicleta 
                 YAMAHA es capaz de un manejo incomparable, fuerte y confiable.</p>
-            <button class="btn">Ver detalles</button>
+                <button class="btn" data-product="producto4.html">Ver detalles</button>
+                <script>
+                    document.querySelectorAll('.btn').forEach((button) => {
+                    button.addEventListener('click', () => {
+                    window.location.href = button.getAttribute('data-product');
+                    });
+                  });
+                </script>
           </div>   
         </div>
         <div class="container">
@@ -122,57 +149,82 @@
                 <h2>Semi deportivas</h2>
                 <p> Se inspiran el estilo agresivo y aerodinámico de las deportivas 
                     pero también buscan un balance entre economía y buen rendimiento</p>
-                <button class="btn">Ver detalles</button>
+                    <button class="btn" data-product="producto5.html">Ver detalles</button>
+                    <script>
+                        document.querySelectorAll('.btn').forEach((button) => {
+                        button.addEventListener('click', () => {
+                        window.location.href = button.getAttribute('data-product');
+                        });
+                      });
+                    </script>
               </div>
             <div class="card">
               <img src="producto6.jpg" alt="Yamaha Product 2">
               <h2>Motocross/Enduro</h2>
               <p>Ofrecen lo último en diseño, tecnología y desempeño. 
                 Están diseñadas para ayudar al corredor entusiasta a convertirse el mejor</p>
-              <button class="btn">Ver detalles</button>
+                <button class="btn" data-product="producto6.html">Ver detalles</button>
+                <script>
+                    document.querySelectorAll('.btn').forEach((button) => {
+                    button.addEventListener('click', () => {
+                    window.location.href = button.getAttribute('data-product');
+                    });
+                  });
+                </script>
             </div>
             <div class="card">
               <img src="producto7.jpg" alt="Yamaha Product 3">
               <h2>Motos acuaticas</h2>
               <p>Siendo pioneros del sistema RIDE, sobresalimos en la categoría de Motos Acuáticas. 
                 No solo somos diferenciados en tierra, también en agua.</p>
-              <button class="btn">Ver detalles</button>
+                <button class="btn" data-product="producto7.html">Ver detalles</button>
+                <script>
+                    document.querySelectorAll('.btn').forEach((button) => {
+                    button.addEventListener('click', () => {
+                    window.location.href = button.getAttribute('data-product');
+                    });
+                  });
+                </script>
             </div> 
             <div class="card">
                 <img src="producto8.jpg" alt="Yamaha Product 3">
                 <h2>Trabajo</h2>
                 <p> Esta es la moto ideal para que te transportes al trabajo, al estudio, al futbol, a hacer tus pagos, 
                     tus mandados personales y mucho más cada día. </p>
-                <button class="btn">Ver detalles</button>
+                    <button class="btn" data-product="producto8.html">Ver detalles</button>
+                    <script>
+                        document.querySelectorAll('.btn').forEach((button) => {
+                        button.addEventListener('click', () => {
+                        window.location.href = button.getAttribute('data-product');
+                        });
+                      });
+                    </script>
               </div> 
           </div>
-          <script>
-            document.querySelectorAll('.btn').forEach((button) => {
-              button.addEventListener('click', () => {
-                window.location.href = 'detalles.html'; // Cambia esta URL según sea necesario
-              });
-            });
-          </script>
+          
       </section>
+      
+
 <!--about section starts-->
-<section class="about" id="about">
-    <h1 class="heading"><span>Sobre Nosotros</h1>
+<section class="about us" id="about us">
+    <h1 class="heading"><span>about us</span>US</h1>
+    <div class="row">
         <div class="image">
-            <img src="about-us.jpeg" alt="">
+            <img src="about us.jpeg" alt="">
         </div>
     <div class="content">
         <h3>¿Porque nosotros?</h3>
         <p>Ofrecemos la mejor calidad
             Yamaha es una empresa que esta en Honduras desde 1972, desde entonces nos hemos dedicado a la venta 
             de motocicletas,accesorios y repuestos.
-            Estamos respaldados por la marca con la mayor calidad y liderazgo del pais.
+            Estamos respaldados por la marca con la mayor calidad y loderazgo del pais.
         </p>
         <a href="#">Learn more</a>
     </div>
 </div>
 </section>
 <!--about us section ends-->
-
+<!--products section starts-->
 
 <section class="accesories" id="accesories">
     <div class="content">
@@ -218,101 +270,101 @@
 </section>
 
 <section class="container blogs" id="blog">
-    <h1 class="heading-1">Últimos Blogs</h1>
-        <div class="container-blogs">
-            <div class="card-blog">
-                <div class="container-img">
-                    <img src="imagen01.jpeg" alt="Imagen Blog 1" />
-                    <div class="button-group-blog">
-                        <span>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-link"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-blog">
-                    <h3>La aventura y la adrenalina de las motos</h3>
-                    <span>29 Noviembre 2023</span>
-                    <p>
-                        Un amigo, dos, motos, una aventura a lo desconocido, 
-                        crea las experiencias mas memorables,
-                        descubre las mejores vistas y conoce los mejores lugares,
-                        todo esto sobre dos ruedas y la brisa de la libertad.
-                    </p>
-                    <div class="btn-read-more">Leer más</div>
-                </div>
-            </div>
-            <div class="card-blog">
-                <div class="container-img">
-                    <img src="imagen02.jpeg" alt="Imagen Blog 1" />
-                    <div class="button-group-blog">
-                        <span>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-link"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-blog">
-                    <h3>Locura y diversion</h3>
-                    <span>29 Noviembre 2023</span>
-                    <p>
-                        Yamaha ofrece las posibilidades de viajes que necesites,
-                        desde viajes de trabajo, 
-                        hasta subir cerros y conocer nuevos miradores con la seccion "Enduro".
-                        Yamaha no te limita, te habre las posibilidades de aventura.
-                    </p>
-                    <div class="btn-read-more">Leer más</div>
-                </div>
-            </div>
-            <div class="card-blog">
-                <div class="container-img">
-                    <img src="imagen03.jpeg" alt="Imagen Blog 1" />
-                    <div class="button-group-blog">
-                        <span>
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-link"></i>
-                        </span>
-                    </div>
-                </div>
-                <div class="content-blog">
-                    <h3>Aunque vayas solo...</h3>
-                    <span>29 Noviembre 2023</span>
-                    <p>
-                        La aventura no siempre viene de ir con alguien mas, 
-                        siempre puedes conocer nuevos lugares solo,
-                        la mejor compañia siempre va a ser una buena moto. 
-                        Atrevete a descubrir nuevos lugares y nuevas rutas, 
-                        nuevos caminos y nuevas experiencias.
-                    </p>
-                    <div class="btn-read-more">Leer más</div>
-                </div>
-         </div>
-    </section>
+  <h1 class="heading-1">Últimos Blogs</h1>
+      <div class="container-blogs">
+          <div class="card-blog">
+              <div class="container-img">
+                  <img src="imagen01.jpeg" alt="Imagen Blog 1" />
+                  <div class="button-group-blog">
+                      <span>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                      <span>
+                          <i class="fa-solid fa-link"></i>
+                      </span>
+                  </div>
+              </div>
+              <div class="content-blog">
+                  <h3>La aventura y la adrenalina de las motos</h3>
+                  <span>29 Noviembre 2023</span>
+                  <p>
+                      Un amigo, dos, motos, una aventura a lo desconocido, 
+                      crea las experiencias mas memorables,
+                      descubre las mejores vistas y conoce los mejores lugares,
+                      todo esto sobre dos ruedas y la brisa de la libertad.
+                  </p>
+                  <div class="btn-read-more">Leer más</div>
+              </div>
+          </div>
+          <div class="card-blog">
+              <div class="container-img">
+                  <img src="imagen02.jpeg" alt="Imagen Blog 1" />
+                  <div class="button-group-blog">
+                      <span>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                      <span>
+                          <i class="fa-solid fa-link"></i>
+                      </span>
+                  </div>
+              </div>
+              <div class="content-blog">
+                  <h3>Locura y diversion</h3>
+                  <span>29 Noviembre 2023</span>
+                  <p>
+                      Yamaha ofrece las posibilidades de viajes que necesites,
+                      desde viajes de trabajo, 
+                      hasta subir cerros y conocer nuevos miradores con la seccion "Enduro".
+                      Yamaha no te limita, te habre las posibilidades de aventura.
+                  </p>
+                  <div class="btn-read-more">Leer más</div>
+              </div>
+          </div>
+          <div class="card-blog">
+              <div class="container-img">
+                  <img src="imagen03.jpeg" alt="Imagen Blog 1" />
+                  <div class="button-group-blog">
+                      <span>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                      </span>
+                      <span>
+                          <i class="fa-solid fa-link"></i>
+                      </span>
+                  </div>
+              </div>
+              <div class="content-blog">
+                  <h3>Aunque vayas solo...</h3>
+                  <span>29 Noviembre 2023</span>
+                  <p>
+                      La aventura no siempre viene de ir con alguien mas, 
+                      siempre puedes conocer nuevos lugares solo,
+                      la mejor compañia siempre va a ser una buena moto. 
+                      Atrevete a descubrir nuevos lugares y nuevas rutas, 
+                      nuevos caminos y nuevas experiencias.
+                  </p>
+                  <div class="btn-read-more">Leer más</div>
+              </div>
+       </div>
+  </section>
 
-<!--seccion products ends-->
+  <!--seccion products ends-->
 <section class="directores" id="directores">
-        <a href="https://www.facebook.com/juanmanuel.fuentesfajardo?mibextid=ZbWKwL" target="_blank" class="social-icon">
-        <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://x.com/juanma3129?s=08" target="_blank" class="social-icon">
-        <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.instagram.com/g_reyes211/profilecard/?igsh=MWdnNDdkZ3cxanlsMw==" target="_blank" class="social-icon">
-        <i class="fab fa-instagram"></i>
-        </a>
-         <a href="https://youtube.com/@gissellereyes-q9h?feature=shared" target="_blank" class="social-icon">
-        <i class="fab fa-youtube"></i>
-        </a>
-    </div>
-    <div class="directores-bottom">
-    <p>Conoce nuestros Ceos NOSOTROS</p>
-    </div>
+  <a href="https://www.facebook.com/juanmanuel.fuentesfajardo?mibextid=ZbWKwL" target="_blank" class="social-icon">
+  <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://x.com/juanma3129?s=08" target="_blank" class="social-icon">
+  <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://www.instagram.com/g_reyes211/profilecard/?igsh=MWdnNDdkZ3cxanlsMw==" target="_blank" class="social-icon">
+  <i class="fab fa-instagram"></i>
+  </a>
+   <a href="https://youtube.com/@gissellereyes-q9h?feature=shared" target="_blank" class="social-icon">
+  <i class="fab fa-youtube"></i>
+  </a>
+</div>
+<div class="directores-bottom">
+<p>Conoce nuestros Ceos NOSOTROS</p>
+</div>
 </section>
 </body>
 
@@ -332,10 +384,9 @@
         </a>
     </div>
     <div class="footer-bottom">
-        <p>Siguenos en nuestras redes sociales YAMAHA</p>
+        <p>Siguenos en nuestras redes sociales</p>
     </div>
     <div class="footer-bottom">
         <p>&copy; 2024 Yamaha Motor Company. Todos los derechos reservados.</p>
     </div>
 </footer>
-
