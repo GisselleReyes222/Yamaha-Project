@@ -324,10 +324,10 @@ footer {
     }
 }
 
+
 /* Estilos para el blog */
 .blogs {
     width: 100%;
-    max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
@@ -346,6 +346,8 @@ footer {
 }
 
 .card-blog .container-img {
+    width: 400px;
+    height: 400px;
 	border-radius: 2rem;
 	cursor: pointer;
 	position: relative;
@@ -429,7 +431,6 @@ footer {
 .btn-read-more:hover {
 	background-color: var(--dark-color);
 }
-
 
 .directores {
     background-color: #000;
