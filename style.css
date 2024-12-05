@@ -326,6 +326,8 @@ footer {
 
 /* Estilos para el blog */
 .blogs {
+    width: 100%;
+    max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
@@ -415,7 +417,7 @@ footer {
 .btn-read-more {
 	padding: 1rem 3rem;
 	background-color: var(--primary-color);
-	color: #fff;
+	color: #a20b0b;
 	text-transform: uppercase;
 	font-size: 1.4rem;
 	border-radius: 2rem;
