@@ -429,67 +429,79 @@ footer {
 .btn-read-more:hover {
 	background-color: var(--dark-color);
 }
-.directores {
-    background-color: #000;
-    color: white;
+
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.wrapper{
+    background: #161716;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+.wrapper{
+    margin-top: 10%;
+  }
+  
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
     text-align: center;
-    padding: 60px 0;
-    border-radius: 5px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
-.directores {
-    background-color: #121212;  /* Fondo oscuro */
-    color: white;
-    padding: 40px 20px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-.directores-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.directores-logo img {
-    width: 100px; /* Tamaño ajustable del logo */
-}
-.directores-links {
-    margin: 20px;
-}
-.directores-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 20px;
-    transition: color 0.3s;
-}
-.directores-links a:hover {
-    color: #101111; /* Color de hover */
-}
-.directores-socials {
+  
+.team{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
 }
-.social-icon {
-    color: white;
-    font-size: 30px;
-    margin: 0 15px;
-    transition: color 0.3s;
+  
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
 }
-.social-icon:hover {
-     color: #0e0e0f;/* Color de hover */
+  
+.team .team_member h3{
+    color: #880909;
+    font-size: 26px;
+    margin-top: 50px;
 }
-.directores-bottom {
-    margin-top: 20px;
-    font-size: 14px;
+  
+.team .team_member p.role{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
 }
-.directores-bottom p {
-    margin: 0;
-    font-size: 20px;
+  
+.team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
 }
+  
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
 
 /* Estilos para pantallas de tamaño grande (desktop) */
 @media only screen and (min-width: 1200px) {
