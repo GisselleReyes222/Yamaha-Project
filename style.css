@@ -14,7 +14,6 @@ header h1 {
 h3 {
     margin-top: 0px;
     font-size: 2.0em;
-    color: rgb(241, 0, 0);
 }
 
 body {
@@ -397,20 +396,21 @@ footer {
 	color: #ffffff;
 }
 .content-blog h3 {
-	font-size: 1.8rem;
-	margin-bottom: 1.7rem;
+	font-size: 1.5rem;
+	margin-bottom: 1.4rem;
 	color: var(--dark-color);
 	font-weight: 500;
+    color: #100457;
 }
 .content-blog h3:hover {
 	color: var(--primary-color);
 	cursor: pointer;
+    
 }
 .content-blog p {
 	margin-top: 1rem;
-	font-size: 1.4rem;
-	color: #626692;
-
+	font-size: 1.2rem;
+	color: #100457;
 }
 .content-blog span {
 	color: var(--primary-color);
@@ -481,7 +481,7 @@ footer {
 }
   
 .team .team_member p.role{
-    color: #ccc;
+    color: #cccccce1;
     margin: 10px 0;
     font-size: 12px;
     text-transform: uppercase;
@@ -566,7 +566,7 @@ footer {
 	color: white;
 	padding: 1rem 0;
 	font-size: 2px;
-	border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 8px, 8px;
 }
 
 .about img {
