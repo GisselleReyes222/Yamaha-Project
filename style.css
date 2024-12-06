@@ -533,3 +533,58 @@ footer {
         width: 100%;
     }
 }
+
+.about {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(7, 74, 133);
+}
+
+.about .h1 {
+	margin: 0;
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
+.about .h3 {
+	margin: 0;
+	padding: 0.5rem 0;
+	text-align: center;
+}
+
+.about .p {
+	margin: 1rem 0;
+	padding: 0 1rem;
+	text-align: justify;
+}
+
+.about .heading {
+	background-color: rgb(167, 196, 222);
+	color: white;
+	padding: 1rem 0;
+	font-size: 2px;
+	border-radius: 8px 8px 0 0;
+}
+
+.about img {
+	width: 80%;
+	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px;
+}
+
+.about .content {
+	background-color: white;
+	padding: 2rem;
+	margin: 0 auto;
+	max-width: 800px;
+	border-radius: 0 0 8px 10px;
+	box-shadow: 0px 4px 10px;
+}
+
+.about .content .h3 {
+	color: #fff;
+	font-size: 1.3rem;
+}
