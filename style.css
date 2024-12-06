@@ -189,6 +189,46 @@ nav a:hover {
     color: #fff;
   }
 
+ .confirm-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 300px;
+    height: 150px;
+    text-align: center;
+  }
+
+  .confirm-box p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .confirm-box button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .confirm-box button:hover {
+    background-color: #3e8e41;
+  }
+
+  .confirm-box .yes {
+    margin-right: 10px;
+  }
+
+
 footer {
     background-color: #000;
     color: white;
