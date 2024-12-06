@@ -32,7 +32,39 @@
                       <img src="pro1.jpg" alt="Yamaha Product 1">
                         <p>Con una potencia máxima de 14 HP, 5 velocidades y chasis compuesto por resistentes 
                             parrillas tubulares</p>
-                      <button class="btn">Comprar</button>
+                    <button class="btn" onclick="showConfirm()">Comprar</button>
+                  <script>
+                    function showConfirm() {
+                      var confirmBox = document.createElement("div");
+                      confirmBox.innerHTML = "<p>¿Estás seguro que deseas comprar?</p><button class='yes'>Sí</button><button class='no'>No</button>";
+                      confirmBox.style.position = "fixed";
+                      confirmBox.style.top = "50%";
+                      confirmBox.style.left = "50%";
+                      confirmBox.style.transform = "translate(-50%, -50%)";
+                      confirmBox.style.zIndex = "1";
+                      confirmBox.style.background = "white";
+                      confirmBox.style.padding = "20px";
+                      confirmBox.style.border = "1px solid #ccc";
+                      confirmBox.style.borderRadius = "10px";
+                      confirmBox.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+                      document.body.appendChild(confirmBox);
+                  
+                      var yesButton = confirmBox.querySelector(".yes");
+                      var noButton = confirmBox.querySelector(".no");
+                  
+                      yesButton.addEventListener("click", function() {
+                        // User confirmed the purchase, you can add code here to process the purchase
+                        console.log("Purchase confirmed!");
+                        confirmBox.remove();
+                      });
+                  
+                      noButton.addEventListener("click", function() {
+                        // User cancelled the purchase, you can add code here to handle the cancellation
+                        console.log("Purchase cancelled!");
+                        confirmBox.remove();
+                      });
+                    }
+                  </script>
                     </div>
 
                     <div class="card">
@@ -40,7 +72,39 @@
                     <h3>L116,990.00</h3>     
                       <img src="pro2.jpg" alt="Yamaha Product 1">
                         <p>La DT175 un modelo doble propósito la mas rápida de todas las motos de trabajo.</p>
-                      <button class="btn">Comprar</button>
+                      <button class="btn" onclick="showConfirm()">Comprar</button>
+                  <script>
+                    function showConfirm() {
+                      var confirmBox = document.createElement("div");
+                      confirmBox.innerHTML = "<p>¿Estás seguro que deseas comprar?</p><button class='yes'>Sí</button><button class='no'>No</button>";
+                      confirmBox.style.position = "fixed";
+                      confirmBox.style.top = "50%";
+                      confirmBox.style.left = "50%";
+                      confirmBox.style.transform = "translate(-50%, -50%)";
+                      confirmBox.style.zIndex = "1";
+                      confirmBox.style.background = "white";
+                      confirmBox.style.padding = "20px";
+                      confirmBox.style.border = "1px solid #ccc";
+                      confirmBox.style.borderRadius = "10px";
+                      confirmBox.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+                      document.body.appendChild(confirmBox);
+                  
+                      var yesButton = confirmBox.querySelector(".yes");
+                      var noButton = confirmBox.querySelector(".no");
+                  
+                      yesButton.addEventListener("click", function() {
+                        // User confirmed the purchase, you can add code here to process the purchase
+                        console.log("Purchase confirmed!");
+                        confirmBox.remove();
+                      });
+                  
+                      noButton.addEventListener("click", function() {
+                        // User cancelled the purchase, you can add code here to handle the cancellation
+                        console.log("Purchase cancelled!");
+                        confirmBox.remove();
+                      });
+                    }
+                  </script>
                     </div>
 
                     <div class="card">
@@ -49,7 +113,39 @@
                           <img src="pro3.jpg" alt="Yamaha Product 1">
                             <p>La todo terreno que te permitirá llevar esa sensación de 
                               adrenalina a otro nivel con su potente motor de 16.7HP, torque de 14.3 N-ms</p>
-                          <button class="btn">Comprar</button>
+                         <button class="btn" onclick="showConfirm()">Comprar</button>
+                  <script>
+                    function showConfirm() {
+                      var confirmBox = document.createElement("div");
+                      confirmBox.innerHTML = "<p>¿Estás seguro que deseas comprar?</p><button class='yes'>Sí</button><button class='no'>No</button>";
+                      confirmBox.style.position = "fixed";
+                      confirmBox.style.top = "50%";
+                      confirmBox.style.left = "50%";
+                      confirmBox.style.transform = "translate(-50%, -50%)";
+                      confirmBox.style.zIndex = "1";
+                      confirmBox.style.background = "white";
+                      confirmBox.style.padding = "20px";
+                      confirmBox.style.border = "1px solid #ccc";
+                      confirmBox.style.borderRadius = "10px";
+                      confirmBox.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+                      document.body.appendChild(confirmBox);
+                  
+                      var yesButton = confirmBox.querySelector(".yes");
+                      var noButton = confirmBox.querySelector(".no");
+                  
+                      yesButton.addEventListener("click", function() {
+                        // User confirmed the purchase, you can add code here to process the purchase
+                        console.log("Purchase confirmed!");
+                        confirmBox.remove();
+                      });
+                  
+                      noButton.addEventListener("click", function() {
+                        // User cancelled the purchase, you can add code here to handle the cancellation
+                        console.log("Purchase cancelled!");
+                        confirmBox.remove();
+                      });
+                    }
+                  </script>
                         </div> 
 
                         <div class="card">
@@ -58,7 +154,39 @@
                               <img src="pro4.jpg" alt="Yamaha Product 1">
                                 <p>La suspensión avanzada de viajes largos y la inyección de combustible moderna, 
                                   permite realizar largos recorridos </p>
-                              <button class="btn">Comprar</button>
+                             <button class="btn" onclick="showConfirm()">Comprar</button>
+                  <script>
+                    function showConfirm() {
+                      var confirmBox = document.createElement("div");
+                      confirmBox.innerHTML = "<p>¿Estás seguro que deseas comprar?</p><button class='yes'>Sí</button><button class='no'>No</button>";
+                      confirmBox.style.position = "fixed";
+                      confirmBox.style.top = "50%";
+                      confirmBox.style.left = "50%";
+                      confirmBox.style.transform = "translate(-50%, -50%)";
+                      confirmBox.style.zIndex = "1";
+                      confirmBox.style.background = "white";
+                      confirmBox.style.padding = "20px";
+                      confirmBox.style.border = "1px solid #ccc";
+                      confirmBox.style.borderRadius = "10px";
+                      confirmBox.style.boxShadow = "0 0 10px rgba(0,0,0,0.2)";
+                      document.body.appendChild(confirmBox);
+                  
+                      var yesButton = confirmBox.querySelector(".yes");
+                      var noButton = confirmBox.querySelector(".no");
+                  
+                      yesButton.addEventListener("click", function() {
+                        // User confirmed the purchase, you can add code here to process the purchase
+                        console.log("Purchase confirmed!");
+                        confirmBox.remove();
+                      });
+                  
+                      noButton.addEventListener("click", function() {
+                        // User cancelled the purchase, you can add code here to handle the cancellation
+                        console.log("Purchase cancelled!");
+                        confirmBox.remove();
+                      });
+                    }
+                  </script>
                             </div>  
                   </div>
     
