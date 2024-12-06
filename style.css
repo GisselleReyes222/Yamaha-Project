@@ -394,7 +394,7 @@ footer {
 	background-color: var(--primary-color);
 }
 .button-group-blog span:hover i {
-	color: #fff;
+	color: #ffffff;
 }
 .content-blog h3 {
 	font-size: 1.8rem;
@@ -410,6 +410,7 @@ footer {
 	margin-top: 1rem;
 	font-size: 1.4rem;
 	color: #626692;
+
 }
 .content-blog span {
 	color: var(--primary-color);
@@ -418,7 +419,7 @@ footer {
 .btn-read-more {
 	padding: 1rem 3rem;
 	background-color: var(--primary-color);
-	color: #a20b0b;
+	color: #100457;
 	text-transform: uppercase;
 	font-size: 1.4rem;
 	border-radius: 2rem;
@@ -430,7 +431,6 @@ footer {
 	background-color: var(--dark-color);
 }
 
-
 .wrapper{
     margin: 0;
     padding: 0;
@@ -438,7 +438,7 @@ footer {
 }
   
 .wrapper{
-    background: #161716;
+    background: #3c4c5798;
     font-family: 'Josefin Sans', sans-serif;
 }
   
@@ -450,7 +450,7 @@ footer {
     color: white;
     font-family: 'Allura', cursive;
     font-size: 52px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     text-align: center;
 }
   
@@ -463,7 +463,7 @@ footer {
 }
   
 .team .team_member{
-    background: #fff;
+    background: #ffffff;
     margin: 5px;
     margin-bottom: 50px;
     width: 300px;
@@ -471,17 +471,18 @@ footer {
     line-height: 20px;
     color: #8e8b8b;  
     position: relative;
+    border-radius: 4%;
 }
   
 .team .team_member h3{
-    color: #880909;
-    font-size: 26px;
-    margin-top: 50px;
+    color: #1a1249;
+    font-size: 20px;
+    margin-top: 45px;
 }
   
 .team .team_member p.role{
     color: #ccc;
-    margin: 12px 0;
+    margin: 10px 0;
     font-size: 12px;
     text-transform: uppercase;
 }
@@ -500,7 +501,7 @@ footer {
 .team .team_member .team_img img{
     width: 100px;
     height: 100px;
-    padding: 5px;
+    border-radius: 50%;
 }
 
 
