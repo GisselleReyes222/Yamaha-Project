@@ -72,7 +72,7 @@
               <button class="btn" onclick="showConfirm()">Comprar</button>
                   <script>
                     function showConfirm() {
-                      var confirmBox = formulario("div");
+                      var confirmBox =document.createElement("div");
                       confirmBox.innerHTML = "<p>¿Estás seguro que deseas comprar?</p><button class='yes'>Sí</button><button class='no'>No</button>";
                       confirmBox.style.position = "fixed";
                       confirmBox.style.top = "50%";
