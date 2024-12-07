@@ -345,11 +345,13 @@ footer {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+    
 }
 .container-blogs {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3rem;
+    
 }
 .card-blog {
 	display: flex;
@@ -536,7 +538,7 @@ footer {
 }
 
 .about {
-	background-color: white;
+	background-color: #a5a5b1;
 	padding: 0;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -556,8 +558,7 @@ footer {
 }
 
 .about .p {
-	margin: 1rem 0;
-	padding: 0 1rem;
+	padding-left: 5 px;
 	text-align: justify;
 }
 
@@ -570,19 +571,16 @@ footer {
 }
 
 .about img {
-	width: 80%;
-	max-width: 600px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 10px;
+	width: 100%;
+	max-width: 1200px;
+    border-radius: 4%;
 }
 
 .about .content {
-	background-color: white;
+    background-color: #a5a5b1;
 	padding: 2rem;
 	margin: 0 auto;
-	max-width: 800px;
-	border-radius: 0 0 8px 10px;
-	box-shadow: 0px 4px 10px;
+	max-width: 1200px;
 }
 
 .about .content .h3 {
